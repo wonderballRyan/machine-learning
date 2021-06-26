@@ -1,9 +1,14 @@
 # 1 最大最小聚类算法
 
+算法流程：
+
 ![图片](https://user-images.githubusercontent.com/34503835/123507589-e4650500-d69c-11eb-953a-e242f86e837a.png)
 
+参考链接：https://blog.csdn.net/guyuealian/article/details/53708042
 
 # 2.1 k-means聚类算法
+
+参考链接：https://www.cnblogs.com/lc1217/p/6893924.html
 
 算法流程：
   
@@ -23,6 +28,8 @@
   
 # 2.2 k-means++聚类算法
 
+参考链接：https://www.cnblogs.com/lc1217/p/6893924.html
+
 算法流程：
  
  1）在数据集中随机挑选1个点作为种子点
@@ -36,3 +43,12 @@
  5）进行标准的K-Means算法
 
 # 2.3 python自带的k-means聚类算法
+
+参考链接：https://zhuanlan.zhihu.com/p/47916491
+
+# 3 层级聚类算法
+
+算法流程：
+凝聚层次聚类与k均值的关键不同。 我们不是选择多个聚类并以随机质心开始，而是从数据集中的每个点开始作为“聚类”。然后我们找到两个最接近的点并将它们组合成一个聚类。 然后，我们找到下一个最近的点，这些点成为一个簇。 我们重复这个过程，直到我们只有一个巨大的巨型集群。
+
+参考链接：https://zhuanlan.zhihu.com/p/47916491
